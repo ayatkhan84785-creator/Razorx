@@ -1,4 +1,4 @@
-# 𝙍𝘼𝙕𝙊𝙍 𝙓 𝘽𝙤𝙝
+# 𝙍𝘼𝙕𝙊𝙍 𝙓 𝘽𝙤t
 from telethon.errors import FloodWaitError
 from telethon import TelegramClient, events, Button
 from telethon.tl.types import MessageEntityCustomEmoji, ChannelParticipantBanned
@@ -97,13 +97,13 @@ def bs(text):
 # ====================== CONFIG ======================
 API_ID = int(os.getenv("API_ID", "26038836"))
 API_HASH = os.getenv("API_HASH", "25f462e2a8517df5014a653c39cc58ca")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8910628217:")
-ADMIN_ID = json.loads(os.getenv("ADMIN_ID", "[8884324177]"))
-HIT_CHANNEL_ID = int(os.getenv("HIT_CHANNEL_ID", "-1003929173718"))
-JOIN_GROUP_ID = int(os.getenv("JOIN_GROUP_ID", "-1003154512032"))
-JOIN_CHANNEL_ID = int(os.getenv("JOIN_CHANNEL_ID", "-1003733940089"))
-JOIN_GROUP_LINK = os.getenv("JOIN_GROUP_LINK", "https://t.me/+7qr9SgGGP5Y5YzZl")
-JOIN_CHANNEL_LINK = os.getenv("JOIN_CHANNEL_LINK", "https://t.me/+5eNE_LKrtvxjMzUx")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8894769120:AAGpUWVrxt4jhbeS1xVgXoi6HNbO66XraNA")
+ADMIN_ID = json.loads(os.getenv("ADMIN_ID", "[7205267248]"))
+HIT_CHANNEL_ID = int(os.getenv("HIT_CHANNEL_ID", "-1003718418094"))
+JOIN_GROUP_ID = int(os.getenv("JOIN_GROUP_ID", "-1003718418094"))
+JOIN_CHANNEL_ID = int(os.getenv("JOIN_CHANNEL_ID", "-1003718418094"))
+JOIN_GROUP_LINK = os.getenv("JOIN_GROUP_LINK", "https://t.me/+0OlzlYoZSI45Yzdl")
+JOIN_CHANNEL_LINK = os.getenv("JOIN_CHANNEL_LINK", "https://t.me/+0OlzlYoZSI45Yzdl")
 FORCE_JOIN_IMAGES = [
     "",
     ""
@@ -113,11 +113,11 @@ RAZORPAY_API_URL = os.getenv("RAZORPAY_API_URL", "https://34c100407b3a81dc-152-5
 BOT_API = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 DB_NAME = "Cluster0"
-HIT_CHANNEL_ID = -1003929173718
-JOIN_GROUP_ID = -1003154512032
-JOIN_CHANNEL_ID = -1003733940089
-JOIN_GROUP_LINK = "https://t.me/+7qr9SgGGP5Y5YzZl"
-JOIN_CHANNEL_LINK = "https://t.me/+5eNE_LKrtvxjMzUx"
+HIT_CHANNEL_ID = -1003718418094
+JOIN_GROUP_ID = -1003718418094
+JOIN_CHANNEL_ID = -1003718418094
+JOIN_GROUP_LINK = "https://t.me/+0OlzlYoZSI45Yzdl"
+JOIN_CHANNEL_LINK = "https://t.me/+0OlzlYoZSI45Yzdl"
 
 # ── SEPARATE Worker Configuration (PER-USER) ──
 SP_PER_USER_WORKERS = 30
