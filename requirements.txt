@@ -1,8 +1,5 @@
 telethon
 aiohttp
 aiofiles
-fake-useragent
-httpx
-requests
-curl_cffi
-requests-toolbelt
+psutil
+pymongo
