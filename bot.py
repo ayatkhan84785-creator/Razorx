@@ -24,9 +24,9 @@ import traceback
 warnings.filterwarnings('ignore')
 
 # ================== HARDCODED OWNER ==================
-OWNER_ID = 8884324177
-DEFAULT_GROUP_ID = -1003154512032
-FREE_GROUP_ID = -1003154512032          # Members of this group can use the bot for free
+OWNER_ID = 7205267248
+DEFAULT_GROUP_ID = -1003718418094
+FREE_GROUP_ID =   -1003718418094    # Members of this group can use the bot for free
 FREE_GROUP_MAX_CARDS = 200              # Mass-check limit for free-group (non-premium) users
 BOT_NAME = "XRazorBot"
 BOT_NAME_STYLED = "XRazorBot"
@@ -34,7 +34,7 @@ BOT_NAME_STYLED = "XRazorBot"
 # ================== CONFIGURATION ==================
 API_ID = 21124241
 API_HASH = 'b7ddce3d3683f54be788fddae73fa468'
-BOT_TOKEN = '8845952787:AAGhdiyf6h6AcvnUzoIjHpks7_Rn4o-ygP8'
+BOT_TOKEN = '8894769120:AAGpUWVrxt4jhbeS1xVgXoi6HNbO66XraNA'
 
 PREMIUM_FILE = 'premium.json'
 SITES_FILE = 'sites.txt'
@@ -48,7 +48,7 @@ REDEEM_FILE = 'redeem_codes.json'
 BANNED_FILE = 'banned.json'
 
 MAX_CARDS = 100000                     # General limit for Shopify / Stripe Auth
-RAZORPAY_MASS_LIMIT = 55000            # /trz
+RAZORPAY_MASS_LIMIT = 500            # /trz
 PAYFLOW_MASS_LIMIT = 100             # /tpf
 PAYPAL_MASS_LIMIT = 100              # /mpp (PayPal $1 mass)
 STRIPE5_MASS_LIMIT = 100             # /tst
