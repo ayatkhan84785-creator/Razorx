@@ -1893,8 +1893,8 @@ async def broadcast_charged_hit(result, user_info):
 
     buttons = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("Channel 🌐", url="https://t.me/+QuZALtRVK0QyMzFk"),
-            InlineKeyboardButton("Owner 👤", url="https://t.me/ArxisX")
+            InlineKeyboardButton("Channel 🌐", url="https://t.me/cvvwasi"),
+            InlineKeyboardButton("Owner 👤", url="t.me/Cvvvwasi")
         ]
     ])
 
