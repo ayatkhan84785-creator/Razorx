@@ -1,5 +1,7 @@
 telethon
 aiohttp
 aiofiles
-psutil
+motor
 pymongo
+dnspython
+psutil
